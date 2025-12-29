@@ -1,0 +1,22 @@
+body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f4f4f4; color: #333; }
+header { background: #007bff; color: white; padding: 10px; }
+nav { display: flex; justify-content: space-between; align-items: center; max-width: 1200px; margin: auto; }
+.logo { font-size: 24px; font-weight: bold; }
+ul { list-style: none; display: flex; gap: 20px; }
+a { color: white; text-decoration: none; }
+.hero { text-align: center; padding: 100px 20px; background: linear-gradient(to right, #007bff, #00c853); color: white; }
+h1 { font-size: 48px; }
+.cta { background: white; color: #007bff; padding: 10px 20px; border-radius: 5px; text-decoration: none; }
+section { padding: 50px 20px; max-width: 1200px; margin: auto; }
+h2 { text-align: center; }
+.feature-grid, .team-grid, .course-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
+.feature, .member, .course { background: white; padding: 20px; border-radius: 8px; text-align: center; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+.course h3 { margin-top: 0; }
+.course button { background: #00c853; color: white; border: none; padding: 10px; border-radius: 5px; cursor: pointer; }
+form { display: flex; flex-direction: column; gap: 10px; max-width: 400px; margin: auto; }
+input, textarea, button { padding: 10px; border-radius: 5px; border: 1px solid #ccc; }
+button { background: #007bff; color: white; cursor: pointer; }
+footer { text-align: center; padding: 20px; background: #007bff; color: white; }
+
+/* Mobile responsive */
+@media (max-width: 768px) { nav ul { flex-direction: column; } }
